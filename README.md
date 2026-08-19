@@ -137,3 +137,89 @@ Python FastAPI Server
        |
        v
 Updated Estimates
+
+## Technology Stack
+
+### Android
+
+- Kotlin
+- Android SDK
+- Jetpack Compose
+- Android AccessibilityService
+- NotificationListenerService
+- Google ML Kit Text Recognition
+- Google Play Services Location
+- Google Places API
+- Room
+- Kotlin Coroutines
+- Gradle
+
+### Backend
+
+- Python
+- FastAPI
+- SQLite
+- Pydantic
+- Python unittest
+
+### Data and Modeling
+
+The project uses several approaches to make learned parameters more stable, including:
+
+- recency weighting
+- robust statistics
+- outlier resistance
+- weighted estimates
+- minimum sample thresholds
+- parameter shrinkage
+- monotonic travel-time fitting
+- validation before applying learned route corrections
+
+## Repository Structure
+
+DashTool/
+- android/ — Android application
+- DashToolServer/
+  - main.py
+  - engine_learning_v2.py
+  - test_engine_learning_v2.py
+- .gitignore
+- README.md
+
+## Testing
+
+The server learning engine includes unit tests covering behavior such as:
+
+- preventing overfitting with small datasets
+- maintaining realistic travel-time relationships
+- resisting extreme restaurant-wait outliers
+- preserving the configuration schema expected by the Android application
+
+The Android application has also been iteratively tested using simulated screens and real delivery lifecycle data.
+
+## Engineering Challenges
+
+Some of the main engineering challenges addressed during development include:
+
+- extracting useful information from a changing third-party application interface
+- maintaining a reliable delivery state machine
+- preventing missed lifecycle events from corrupting later data
+- combining predicted route information with observed delivery times
+- learning from limited real-world data without overfitting
+- synchronizing an Android client with a local backend
+- estimating useful waiting locations after deliveries
+- protecting API credentials and private delivery/location data
+
+## Privacy and Repository Data
+
+API credentials, generated databases, exported delivery records, build artifacts, and locally collected location data are intentionally excluded from this repository.
+
+The repository contains the application and learning-system source code rather than the private dataset collected during testing.
+
+## Project Status
+
+DashTool is a personal engineering and portfolio project developed for experimentation and real-world testing.
+
+The current version demonstrates the system architecture from offer detection and Android UI through lifecycle data collection, backend storage, and adaptive parameter learning.
+
+It is not intended as a production or commercial release.
