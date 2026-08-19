@@ -137,6 +137,7 @@ Python FastAPI Server
        |
        v
 Updated Estimates
+```
 
 ## Technology Stack
 
