@@ -1,0 +1,40 @@
+# Android Studio
+.idea/
+.gradle/
+**/build/
+local.properties
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Secrets
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+.env
+.env.*
+
+# Python server
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# DashTool generated data
+completed_offer_*.json
+incomplete_offer_*.json
+orders/
+exports/
+logs/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Windows
+Thumbs.db
+Desktop.ini

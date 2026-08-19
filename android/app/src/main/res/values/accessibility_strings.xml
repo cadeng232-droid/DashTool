@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dashtool_accessibility_description">Allows DashTool to capture the visible DoorDash screen only when evaluating an offer or checking an active delivery.</string>
+    <string name="accessibility_service_description">Reads DoorDash order-state text and supplies OCR screenshots to DashTool.</string>
+</resources>

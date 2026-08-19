@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">DashTool</string>
+
+    <string name="overlay_collapsed">DashTool</string>
+
+    <string name="overlay_expanded">%1$s\n\nPay: %2$s\nDistance: %3$s\nRate: %4$s\n\nOrder score: %5$s\n%6$s\n\n%7$s\nTap to collapse</string>
+    <string name="no_order_entered">No order entered yet</string>
+    <string name="rating_unavailable">—</string>
+
+    <string name="overlay_notification_title">DashTool is active</string>
+    <string name="screen_reader_channel_name">Screen reading</string>
+
+    <string name="screen_reader_notification_title">
+    DashTool screen reader
+
+</string>
+    <string name="scan_status_google_searching">
+    Finding Google travel estimate…
+</string>
+
+    <string name="scan_status_google_route">
+    Google route: %1$.1f min, %2$.1f mi to restaurant
+</string>
+
+    <string name="scan_status_google_unavailable">
+    Google route unavailable; using mileage estimate
+</string>
+    <string name="screen_reader_waiting">
+    Waiting for a screen frame…
+</string>
+
+    <string name="screen_reader_result">
+    %1$s\nPay: %2$s\nDistance: %3$s
+</string>
+
+    <string name="screen_reader_stopped">
+    Screen sharing ended.
+</string>
+    <string name="screen_reader_ready">
+    Screen reader ready. Expand DashTool to scan.
+</string>
+
+    <string name="scan_status_scanning">
+    Scanning bottom of screen…
+</string>
+
+    <string name="scan_status_ready">
+    Latest scan complete
+</string>
+
+    <string name="scan_status_reader_inactive">
+    Start Screen Reader in DashTool first
+</string>
+    <string name="screen_reader_permission_missing">
+    Screen-capture permission was not received.
+</string>
+
+    <string name="screen_reader_error">
+    Screen reading failed: %1$s
+</string>
+
+    <string name="restaurant_not_found">
+    Restaurant not identified
+</string>
+
+    <string name="pay_not_found">
+    Pay not found
+</string>
+
+    <string name="mileage_not_found">
+    Mileage not found
+</string>
+
+    <string name="unknown_error">
+    Unknown error
+</string>
+    <string name="overlay_notification_text">
+        The floating order grader is running.
+    </string>
+
+    <string name="overlay_channel_name">DashTool overlay</string>
+    <string name="start_screen_reader">Start Screen Reader</string>
+    <string name="overlay_channel_description">
+        Shows that the DashTool floating overlay is active.
+    </string>
+</resources>
