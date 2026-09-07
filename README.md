@@ -8,10 +8,7 @@ The project combines an Android application with a Python/FastAPI backend to col
 
 ## Demo
 
-
-
-https://github.com/user-attachments/assets/ea73a926-a4b5-4c30-bb5f-660357e823e5
-
+https://github.com/user-attachments/assets/3e583a9f-0127-4e88-be2c-7d801a0b3ca7
 
 ## Screenshots
 
