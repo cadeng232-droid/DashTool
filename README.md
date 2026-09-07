@@ -6,6 +6,13 @@ The project combines an Android application with a Python/FastAPI backend to col
 
 > **Note:** DashTool is an independent personal engineering project and is not affiliated with or endorsed by DoorDash.
 
+## Demo
+
+
+
+https://github.com/user-attachments/assets/ea73a926-a4b5-4c30-bb5f-660357e823e5
+
+
 ## Screenshots
 
 <p align="center">
