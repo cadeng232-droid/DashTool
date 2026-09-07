@@ -6,6 +6,14 @@ The project combines an Android application with a Python/FastAPI backend to col
 
 > **Note:** DashTool is an independent personal engineering project and is not affiliated with or endorsed by DoorDash.
 
+## Screenshots
+
+<p align="center">
+  <img src="Offer_Analysis.jpg" width="250" alt="DashTool offer analysis">
+  <img src="Delivery_Tracking.jpg" width="250" alt="DashTool delivery tracking">
+  <img src="Waiting_Area.jpg" width="250" alt="DashTool waiting-area recommendation">
+</p>
+
 ## Overview
 
 Delivery offers can be difficult to evaluate quickly because the displayed payout and mileage do not capture the full amount of time an order may require.
